@@ -1,0 +1,37 @@
+===================================================================
+new file mode 100644
+index 0000000..33a9488
+--- /dev/null
++++ b/.bazelignore
+@@ -0,0 +1 @@
++example
+diff --git a/REPO.bazel b/REPO.bazel
+deleted file mode 100644
+index 793fead..0000000
+--- a/REPO.bazel
++++ /dev/null
+@@ -1,3 +0,0 @@
+-ignore_directories([
+-    "example/**",
+-])
+diff --git a/example/.bazelignore b/example/.bazelignore
+new file mode 100644
+index 0000000..1384170
+--- /dev/null
++++ b/example/.bazelignore
+@@ -0,0 +1,2 @@
++producer/stdlib_repo
++third_party
+diff --git a/example/REPO.bazel b/example/REPO.bazel
+deleted file mode 100644
+index 6cc27d7..0000000
+--- a/example/REPO.bazel
++++ /dev/null
+@@ -1,4 +0,0 @@
+-ignore_directories([
+-    "producer/stdlib_repo/**",
+-    "third_party/**",
+-])
+-- 
+2.50.1 (Apple Git-155)
+

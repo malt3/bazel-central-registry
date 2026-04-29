@@ -4,7 +4,8 @@
     "url": "https://github.com/hermeticbuild/rules_runfiles_group/releases/download/v0.0.1-rc.1/rules_runfiles_group-v0.0.1-rc.1.tar.gz",
     "docs_url": "https://github.com/hermeticbuild/rules_runfiles_group/releases/download/v0.0.1-rc.1/rules_runfiles_group-v0.0.1-rc.1.docs.tar.gz",
     "patches": {
-        "module_dot_bazel_version.patch": "sha256-ler5qIb0eMihhA+21IGc8YVzu+Ay5bKVyZGFKF/e29g="
+        "module_dot_bazel_version.patch": "sha256-ler5qIb0eMihhA+21IGc8YVzu+Ay5bKVyZGFKF/e29g=",
+        "replace-REPO.bazel-with-.gitignore.patch": "sha256-gqOL5KgaIdC3Sn63BoRa1u+L88zti5PhNrRFa1No3O8="
     },
     "patch_strip": 1
 }
